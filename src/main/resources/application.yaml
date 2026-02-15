@@ -1,0 +1,28 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: viniciussousaitb35@gmail.com
+    password: lnap ywzm tbnc blaf
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+  thymeleaf:
+    enable: true
+
+envio:
+  email:
+    remetente: viniciussousaitb35@gmail.com
+    nomeRemetente: 'vinicius'
+
+server:
+  port: 8082
